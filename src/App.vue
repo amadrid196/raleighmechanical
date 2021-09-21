@@ -28,50 +28,104 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-  text-transform: uppercase;
+//mapa responsive
+frame{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
+iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+//Raleighmechanical
+strong{
+  font-weight: bold !important;
+}
+.office{
+      background-image: url(http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_office.jpg);
+      background-position: 50% -36.0843px;
+}
+
+.jumbotron {
+    border-radius: 0rem;
+}
+
+/* Escritorio */
+@media (min-width: 769px) {
+
+  #nav {
+    padding: 30px;
+    text-transform: uppercase;
+
+    a {
+      font-weight: bold;
+      color: #2c3e50;
+
+      &.router-link-exact-active {
+        color: #42b983;
+      }
     }
   }
-}
 
-//personaizado
-.navbar-center{
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
+  .h7{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
 
-.fila-center{
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    z-index: 1;
-}
+  .navbar-center{
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+  }
 
-.fondo{
-    background-image: url(http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/background_air_condition_01.jpg);
-    background-size: cover;
-    background-position: 50% 0px;
-    background-attachment: fixed;
-    z-index: 1;
-}
+  .fila-center{
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+      z-index: 1;
+  }
 
-.card-z{
+  .fondo{
+      background-image: url(http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/background_air_condition_01.jpg);
+      background-size: cover;
+      background-position: 50% 0px;
+      background-attachment: fixed;
+      z-index: 1;
+  }
+
+  .card-z{
     position: absolute;
     z-index: 2;
     margin-top: -8rem;
+  }
+
 }
 
-.office{
-    background-image: url(http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_office.jpg);
-    background-position: 50% -36.0843px;
+/*Celular */
+@media (max-width: 768px) {
+  .h7{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .fondo{
+      background-image: url(http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/background_air_condition_01.jpg);
+      background-size: cover;
+      background-position: 72% 0px;
+      background-attachment: fixed;
+      z-index: 1;
+  }
+
 }
 </style>
