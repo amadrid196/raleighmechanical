@@ -19,18 +19,16 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="h7">Our Team of Experts</h1>
-        <p class="lead">Jumbo helper text</p>
         <hr class="my-2">
-        <p>More info</p>
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+          <a class="btn btn-primary btn-lg" href="#abouts" role="button">More info</a>
         </p>
       </div>
     </div>
-    <div class="jumbotron m-0 bg-white">
-        <div class="row">
+    <div class="jumbotron m-0 bg-white" id="abouts">
+        <div class="row" >
             <div class="col-12 col-md-4" v-for="about in abouts" :key="about">
-                <div class="card card-z shadow mb-5">
+                <div class="card card-x shadow mb-5">
                         <div class="card-header p-0">
                           <img class="img-fluid" :src="about.img" alt="">
                         </div>
@@ -42,24 +40,6 @@
             </div>
         </div>
     </div>
-
-    <div class="jumbotron m-0 proyect">
-        <h1 class="display-4 text-center text-white pb-4">Our Proyect</h1>
-        <div class="row">
-            <div class="col-3 mb-3">
-                <div class="card card-z shadow">
-                        <div class="card-header p-0">
-                          <img class="img-fluid" src="img2.jpg" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Title</h5>
-                            <p class="card-text">Content</p>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
   </div>
 
 </template>
@@ -72,6 +52,10 @@
     @media (min-width: 769px) {
       .text-about{
         font-size: 2rem;
+      }
+
+      .card-x{
+        margin-top: -8rem;
       }
     }
 

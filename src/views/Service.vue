@@ -1,11 +1,18 @@
 <template>
-  <div>
-      <div class="jumbotron m-0 service text-white text-center">
-        <h1 class="pb-5 mb-5 pt-5 mt-5">Our Services</h1>
+  <div id="services">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container mt-5 pt-5">
+        <h1 class="h7">Our Services</h1>
+        <hr class="my-2">
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#service" role="button">More info</a>
+        </p>
+      </div>
     </div>
 
-    <div class="jumbotron m-0 p-0" v-for="service in services" :key="service">
-        <div class="row m-0">
+    <div class="jumbotron m-0 p-0 bg-white" v-for="service in services" :key="service">
+        <div class="row m-0" id="service">
             <div class="col-12 col-md-6" :class="service.order">
                 <img class="img-fluid" :src="service.img" alt="">
             </div>
