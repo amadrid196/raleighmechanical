@@ -1,12 +1,14 @@
 <template>
-    <div class="jumbotron fondo mb-0 vh-1">
-        <div class="container p-5 m-5"></div>
-        <h1 class="display-4 pt-5 pl-5">CONTACT US</h1>
+    <div class="jumbotron backg mb-0 vh-1">
+        <div class="container p-3 m-5"></div>
+        <h1 class="display-4 pt-3 pl-5" style="color:white">CONTACT US</h1>
     </div>
+
     <div class="jumbotron mb-0">
-        <div class="container mt-5 p-5"></div>
+        <div class="container mt-1 p-0"></div>
         <h1 class="display-4 text-center mt-5">We are licensed to cover the areas of North Carolina, South Carolina and Virginia.</h1>
     </div>
+
     <div class="jumbotron m-0 p-2">
         <div class="row m-0">
             <div class="col-6">
@@ -31,14 +33,13 @@
                     </div>
                     <div class="form-group col-md-12">
                       <label for="text" class="text-dark"></label>
-                        <textarea  type="text" class="form-control" name="consulta" id="consulta" placeholder="" >
-                        </textarea>
+                        <textarea  type="text" class="form-control" name="consulta" id="consulta" placeholder="How can you help?" rows="3"></textarea>
                     </div>
                   </div>
                 </form>
-                <div class="d-flex justify-content-end mt-5 mb-5">
-                    <button class="btn btn-outline-primary btn-azul" style="float:center;" onClick="send()">
-                            ENVIAR
+                <div class="d-flex justify-content-center mt-6 mb-6 ">
+                    <button class="btn btn-danger btn-lg btn-block" style="float:center;" onClick="send()">
+                            SEND
                     </button>
                 </div>
             </div>
@@ -46,3 +47,13 @@
         </div>
     </div>
 </template>
+<style>
+  .backg{
+      background-image: url(../assets/img/inner_office.jpg);
+      background-size: cover;
+      background-position: 50% 0px;
+      background-attachment: fixed;
+      z-index: 1;
+  }
+
+</style>
