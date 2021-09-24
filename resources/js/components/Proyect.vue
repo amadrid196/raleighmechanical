@@ -11,7 +11,7 @@
     </div>
     <div class="jumbotron m-0 bg-white">
         <div class="row" id="proyect">
-            <div class="col-12 col-md-4" v-for="proyect in proyects" :key="proyect">
+            <div class="col-12 col-md-4" v-for="proyect in proyects" v-bind:key="proyect.titulo">
                 <div class="card card-x shadow mb-5">
                         <div class="card-header p-0">
                           <img class="img-fluid" :src="proyect.img" alt="">

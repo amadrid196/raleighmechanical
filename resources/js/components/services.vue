@@ -2,7 +2,7 @@
   <div id="services">
     <div class="jumbotron mb-0">
         <div class="row">
-            <div class="col-12 col-md-3" v-for="service in services" v-bind:key="service">
+            <div class="col-12 col-md-3" v-for="service in services" v-bind:key="service.titulo">
                 <div class="card card-z shadow mb-5">
                         <div class="card-header p-0">
                           <img class="img-fluid" :src="service.img" alt="">
@@ -27,7 +27,7 @@ export default {
         { titulo: 'Multifamily', img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_11.jpg' },
         { titulo: 'Residential', img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_12.jpg' },
         { titulo: 'Light Commercial', img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_13.jpg' },
-        { titulo: 'On-call service', img: '/assets/img/On-call-service.png' }
+        { titulo: 'On-call service', img: '/img/On-call-service.png' }
       ]
     }
   }

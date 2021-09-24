@@ -2210,7 +2210,7 @@ var proyect = vue__WEBPACK_IMPORTED_MODULE_0__["default"].component("proyect", f
   return __webpack_require__.e(/*! import() */ "resources_js_components_Proyect_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/Proyect */ "./resources/js/components/Proyect.vue"));
 });
 var home = vue__WEBPACK_IMPORTED_MODULE_0__["default"].component("home", function () {
-  return __webpack_require__.e(/*! import() */ "resources_js_components_Home_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/Home */ "./resources/js/components/Home.vue"));
+  return __webpack_require__.e(/*! import() */ "resources_js_components_Inicio_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./components/Inicio */ "./resources/js/components/Inicio.vue"));
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
@@ -53671,7 +53671,7 @@ module.exports = JSON.parse('{"_args":[["axios@0.21.4","C:\\\\Users\\\\angelo.ma
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_components_About_vue":1,"resources_js_components_Service_vue":1,"resources_js_components_Contact_vue":1,"resources_js_components_Proyect_vue":1,"resources_js_components_Home_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_About_vue":1,"resources_js_components_Service_vue":1,"resources_js_components_Contact_vue":1,"resources_js_components_Proyect_vue":1,"resources_js_components_Inicio_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
