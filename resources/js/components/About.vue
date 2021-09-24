@@ -27,7 +27,7 @@
     </div>
     <div class="jumbotron m-0 bg-white" id="abouts">
         <div class="row" >
-            <div class="col-12 col-md-4" v-for="about in abouts" :key="about">
+            <div class="col-12 col-md-4" v-for="about in abouts" v-bind:key="about.name">
                 <div class="card card-x shadow mb-5">
                         <div class="card-header p-0">
                           <img class="img-fluid" :src="about.img" alt="">

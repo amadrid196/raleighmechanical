@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/contacto/PostContacto', 'App\Http\Controllers\Mail\sendMail@PostContacto'); //Ruta para envio de correo Contacto
 Route::get('/{any}', function () {
     return view('welcome');
 })->where('any', '.*');

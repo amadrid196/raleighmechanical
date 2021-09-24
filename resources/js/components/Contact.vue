@@ -16,7 +16,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.3178514178167!2d-78.62160308474351!3d35.595225280214514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac625657b981bb%3A0xdb87ceeae8ea8909!2s6605%20Winterton%20Dr%2C%20Raleigh%2C%20NC%2027603%2C%20EE.%20UU.!5e0!3m2!1ses!2shn!4v1632254863723!5m2!1ses!2shn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="col-6 office text-white p-5">
-                <form id="contactform" action="mail.php" method="post">
+                <form id="contactform">
                   <div class="form-row">
                     <div class="col-6 ml-md-6">
                       <input v-model="params.firstName" type="text" class="form-control" placeholder="First name">
@@ -37,13 +37,13 @@
                         <textarea v-model="params.quest"  type="text" class="form-control" name="consulta" id="consulta" placeholder="How can you help?" rows="3"></textarea>
                     </div>
                   </div>
+
+                </form>
                 <div class="d-flex justify-content-center mt-6 mb-6 ">
-                    <button type="submit" @click="send" class="btn btn-danger btn-lg btn-block" style="float:center;" >
+                    <button @click="send" class="btn btn-danger btn-lg btn-block" style="float:center;" >
                             SEND
                     </button>
                 </div>
-                </form>
-
             </div>
 
         </div>
@@ -76,7 +76,17 @@ export default {
   },
   methods: {
     send: function () {
-
+    var url = "/contacto/PostContacto";
+      axios
+        .post(url, {
+          lastName: this.params.lastName,
+          firstName: this.params.firstName,
+          email: this.params.email,
+          phone: this.params.phone,
+          quest: this.params.quest
+        })
+        .then((response) => {
+        });
     }
   }
 
