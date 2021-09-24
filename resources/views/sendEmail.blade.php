@@ -15,7 +15,7 @@
         <p>We have received your email, we will contact you soon</p>
         <div class="row m-0 align-items-center text-left mb-md-5">
             <div class="col-12 col-md-6 order-1 text-center text-md-left pr-md-5 pl-md-5 pt-3">
-                <img src="{{ $message->embed(public_path() . '/img/creo-by-vrd.png') }}" alt="" style="width:20%; " />
+                <img src="{{ $message->embed(public_path() . '/img/logo.png') }}" alt="" style="width:20%; " />
             </div>
             <div class="col-12 mx-auto col-md-6 order-2 p-md-5" data-aos="fade-up"  data-aos-delay="350">
                 <div class="row m-0">

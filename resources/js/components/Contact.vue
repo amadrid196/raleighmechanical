@@ -86,6 +86,7 @@ export default {
           quest: this.params.quest
         })
         .then((response) => {
+            console.log(response)
         });
     }
   }
