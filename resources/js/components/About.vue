@@ -3,6 +3,7 @@
     <div class="jumbotron m-0 historia pb-0">
         <div class="row text-center">
             <div class="col-12 col-md-6 align-self-center">
+                <h3 class="h7 pt-5 pt-5 pt-md-5 pb-md-3 text-secondary"><strong>Relaigh Mechanical</strong></h3>
                 <h6 class="text-about">
                     We are a company formed by experts in the field of air conditioning,
                     with many years of individual experience, we decided to join our talent

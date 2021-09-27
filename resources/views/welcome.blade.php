@@ -33,10 +33,30 @@
                 <div class="row m-0">
                     <div class="col-12 col-md-4 pb-3">
                         <h3 class="">Contact</h3>
-                        <p><i class="text-primary fas fa-phone-volume"></i> Office<span> 1-984-200-8362</span></p>
-                        <p><i class="text-primary fas fa-fax"></i> Fax<span> 1-984-849-0171</span></p>
-                        <p><i class="text-primary far fa-envelope"></i> rmc@raleighmechanicalc.com</p>
-                        <p><i class="text-primary fas fa-map-marker-alt"></i> 6605 winterton dr, Raleigh North Carolina 27603</p>
+                        <p>
+                            <a class="text-white" href="tel:19842008362">
+                                <i class="text-primary fas fa-phone-volume"></i> Office<span> 1-984-200-8362</span></p>
+                            </a>
+                        <p>
+                        <hr class="text-secondary">
+                            <a class="text-white" href="tel:19848490171">
+                                <i class="text-primary fas fa-fax"></i> Fax<span> 1-984-849-0171</span>
+                            </a>
+                        </p>
+                        <hr class="text-secondary">
+                        <p>
+                            <a class="text-white" href="mailto:rmc@raleighmechanicalc.com">
+                                <i class="text-primary far fa-envelope"></i> rmc@raleighmechanicalc.com
+                            </a>
+                        </p>
+                        <hr class="text-secondary">
+                        <p>
+                            <a class="text-white" href="https://goo.gl/maps/jQyo1TS1eNnfY8mw8">
+                                <i class="text-primary fas fa-map-marker-alt"></i> 6605 winterton dr, Raleigh North Carolina 27603
+                            </a>
+                        </p>
+                        <hr class="text-secondary">
+
                     </div>
                     <div class="col-12 col-md-4 pb-3">
                         <h3 class="">Serivices</h3>
@@ -53,6 +73,7 @@
                     <div class="col-12 col-md-4 pb-3">
                         <h3>Emergency Service</h3>
                         <p class="h4"><i class="fas fa-phone-alt text-primary"></i> 1-984-200-8362</p>
+                        <img class="w-50 pt-4" src="/img/raleighmechanical-usa.png" alt="">
                     </div>
                 </div>
             </div>
