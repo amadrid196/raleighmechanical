@@ -12,7 +12,7 @@
 
     <body>
         <h4>Thank you for contacting us</h4>
-        <p>We have received your email, we will contact you soon</p>
+        <p>We have received your email, we will contact you soon.</p>
         <div class="row m-0 align-items-center text-left mb-md-5">
             <div class="col-12 col-md-6 order-1 text-center text-md-left pr-md-5 pl-md-5 pt-3">
                 <img src="{{ $message->embed(public_path() . '/img/logo.png') }}" alt="" style="width:20%; " />
@@ -21,7 +21,7 @@
                 <div class="row m-0">
                     <div class="col-12">
                         <h3 class="text-azul mb-5">
-                            We are a company formed by experts in the field of air conditioning
+                            We are a company formed by experts in the field of air conditioning.
                         </h3>
                     </div>
                     <div class="col-12">
