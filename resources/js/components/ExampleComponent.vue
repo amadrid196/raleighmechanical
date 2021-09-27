@@ -1,7 +1,9 @@
 <template>
   <div id="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow container pl-5 pr-5 pb-5 pt-5 navbar-center">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+            <img src="/img/logo.png" alt="" height="80">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
