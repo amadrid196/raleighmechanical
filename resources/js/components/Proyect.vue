@@ -2,7 +2,7 @@
   <div class="about">
     <div class="jumbotron jumbotron-fluid proyect">
       <div class="container mt-5 pt-5">
-        <div class="container p-3 m-5"></div>
+        <div class="container p-md-3 m-md-5"></div>
         <h1 class="h7 text-white">Our Proyects</h1>
         <hr class="my-2">
         <p class="lead">
