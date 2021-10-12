@@ -2,7 +2,7 @@
   <div id="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow container pl-5 pr-5 pb-5 pt-5 navbar-center">
         <a class="navbar-brand" href="#">
-            <img src="/img/logo.png" alt="" height="80">
+            <img src="/img/logo.png" alt="" height="120">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@ strong{
   font-weight: bold !important;
 }
 .office{
-      background-image: url(http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_office.jpg);
+      background-image: url(/img/contact-raleighmechanical.png);
       background-position: 50% -36.0843px;
 }
 
@@ -137,5 +137,10 @@ strong{
       z-index: 1;
   }
 
+}
+
+// colores
+#nav a.router-link-exact-active {
+    color: #ffc107!important;
 }
 </style>
