@@ -1,11 +1,12 @@
 <template>
   <div class="about">
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid proyect">
       <div class="container mt-5 pt-5">
-        <h1 class="h7">Our Proyects</h1>
+        <div class="container p-md-3 m-md-5"></div>
+        <h1 class="h7 text-white">Our Proyects</h1>
         <hr class="my-2">
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#proyect" role="button">More info</a>
+          <a class="btn btn-dark btn-lg" href="#proyect" role="button">More info</a>
         </p>
       </div>
     </div>
@@ -47,6 +48,15 @@
       .text-about{
         font-size: 1rem;
       }
+    }
+</style>
+<style>
+    .proyect{
+        background-image: url(/img/proyect-raleighmechanical.png);
+        background-size: cover;
+        background-position: 50% 0px;
+        background-attachment: fixed;
+        z-index: 1;
     }
 </style>
 <script>

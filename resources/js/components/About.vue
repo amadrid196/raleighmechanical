@@ -3,7 +3,7 @@
     <div class="jumbotron m-0 historia pb-0">
         <div class="row text-center">
             <div class="col-12 col-md-6 align-self-center">
-                <h3 class="h7 pt-5 pt-5 pt-md-5 pb-md-3 text-secondary"><strong>Relaigh Mechanical</strong></h3>
+                <h3 class="h7 pt-5 pt-5 pt-md-5 pb-md-3 text-warning"><strong>Relaigh Mechanical</strong></h3>
                 <h6 class="text-about">
                     We are a company formed by experts in the field of air conditioning,
                     with many years of individual experience, we decided to join our talent
@@ -12,7 +12,7 @@
                     quality standards.
                 </h6>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mt-5">
               <img src="http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/team_01.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -22,7 +22,7 @@
         <h1 class="h7">Our Team of Experts</h1>
         <hr class="my-2">
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#abouts" role="button">More info</a>
+          <a class="btn btn-warning btn-lg" href="#abouts" role="button">More info</a>
         </p>
       </div>
     </div>
@@ -73,18 +73,18 @@ export default {
     return {
       abouts: [
         {
-          titulo: 'Operations Manager (CEO)',
-          img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_11.jpg',
-          name: 'Andrew Williams'
-        },
-        {
           titulo: 'Chief Executive Officer (CEO)',
-          img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_12.jpg',
+          img: '/img/our-team-relaighmechanicalc.jpeg',
           name: 'Fernando Mercado'
         },
         {
+          titulo: 'Operations Manager (COO)',
+          img: '/img/our-team-relaighmechanicalc.jpeg',
+          name: 'Andrew Williams'
+        },
+        {
           titulo: 'Silent Partner',
-          img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_13.jpg',
+          img: '/img/our-team-relaighmechanicalc.jpeg',
           name: 'Preston Bunn'
         }
       ]

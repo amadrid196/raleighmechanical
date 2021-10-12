@@ -9,7 +9,7 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">{{service.titulo}}</h5>
-                            <router-link to="/services" class="nav-item nav-link">Ver más</router-link>
+                            <router-link to="/services" class="nav-item nav-link btn btn-warning">Ver más</router-link>
                         </div>
                 </div>
             </div>
@@ -24,10 +24,16 @@ export default {
   data () {
     return {
       services: [
-        { titulo: 'Multifamily', img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_11.jpg' },
-        { titulo: 'Residential', img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_12.jpg' },
-        { titulo: 'Light Commercial', img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_13.jpg' },
-        { titulo: 'On-call service', img: '/img/On-call-service.png' }
+        { titulo: 'Multifamily', img: '/img/Air-Conditioning-Multifamily.png' },
+        { titulo: 'Residential', img: '/img/Air-Conditioning-residential.png' },
+        {
+            titulo: 'Light Commercial',
+            img: '/img/On-call-service.png'
+        },
+        {
+            titulo: 'On-call service',
+            img: 'http://prohauz.bold-themes.com/air-condition/wp-content/uploads/sites/4/2018/10/inner_13.jpg'
+        }
       ]
     }
   }

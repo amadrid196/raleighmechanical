@@ -3,9 +3,9 @@
     <div class="jumbotron fondo mb-0 vh-100 text-center text-md-left">
         <div class="container p-md-5 m-md-5 mt-5 pt-5"></div>
         <h1></h1>
-        <h3 class="h7 pt-5 pt-5 pt-md-5 pl-md-5 text-secondary"><strong>Relaigh Mechanical</strong></h3>
-        <h3 class="h7 pl-md-5 text-success ">Air Conditioning</h3>
-            <router-link to="/contact" class="btn btn-primary ml-md-5">REQUEST SERVICE</router-link>
+        <h3 class="h7 pt-5 pt-5 pt-md-5 pl-md-5 text-warning"><strong>Relaigh Mechanical</strong></h3>
+        <h3 class="h7 pl-md-5 text-secondary ">Air Conditioning</h3>
+            <router-link to="/contact" class="btn btn-warning ml-md-5">REQUEST SERVICE</router-link>
     </div>
 
     <services/>
