@@ -36,7 +36,7 @@
                   </div>
 
                 </form>
-                <div class="d-flex justify-content-center mt-6 mb-6 ">
+                <div class="d-flex justify-content-center mt-6 mb-6 " v-if="show == true">
                     <button @click="send" class="btn btn-danger btn-lg btn-block" style="float:center;" >
                             SEND
                     </button>
@@ -67,12 +67,13 @@ export default {
         email: '',
         phone: '',
         quest: ''
-
-      }
+      },
+      show: true,
     }
   },
   methods: {
     send: function () {
+        this.show = false;
     var url = "/contacto/PostContacto";
       axios
         .post(url, {
@@ -83,7 +84,12 @@ export default {
           quest: this.params.quest
         })
         .then((response) => {
-            console.log(response)
+            console.log(response);
+            this.show = true;
+            swal({ title : "Success Request",text:"Your email has been sent successfully",type:"success", icon: "success",} ).then(()=>{
+            this.$router.go();
+            });
+
         });
     }
   }
